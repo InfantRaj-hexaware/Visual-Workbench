@@ -1,0 +1,16 @@
+[Unit]
+Description=Vaas Server Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/vaas_bi/backend
+ExecStart=/root/vaasenv/bin/gunicorn app:app -b 0.0.0.0:7000
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
