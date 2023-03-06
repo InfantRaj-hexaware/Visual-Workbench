@@ -1,0 +1,597 @@
+{"label":"Timeline Dimension_Timeline","pattern":[{"lower":{"IN":["last","past","present","next"]}},{"lower":{"REGEX":"\\d*"}},{"lower":{"IN":["month","months","monthly","year","years","yearly","day","days","daily","quarter","quarters","quarterly","fy"]}}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"lower":{"REGEX":"\\d*"}},{"lower":{"IN":["month","months","monthly","year","years","yearly","day","days","daily","quarter","quarters","quarterly","fy"]}}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"lower":{"IN":["month","months","monthly","year","years","yearly","day","days","daily","quarter","quarters","quarterly","fy"]}},{"lower":{"REGEX":"\\d*"}}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"lower":{"IN":["month","year","day","quarter","fy"]}},{"lower":{"REGEX":"\\d*"}}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"month"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"month"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"year"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"year"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"quarter"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"quarter"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"ytd"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"ytd"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"qtd"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"qtd"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"year to date"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"year"},{"LEMMA":"to"},{"LEMMA":"date"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"quarter to date"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"quarter"},{"LEMMA":"to"},{"LEMMA":"date"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"week"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"week"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"annually"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"annually"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"monthly"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"monthly"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"daily"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"daily"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"hourly"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"hourly"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"underwriting year"}]}
+{"label":"Timeline Dimension_Timeline","pattern":[{"LEMMA":"underwriting"},{"LEMMA":"year"}]}
+{"label":"Measure_Unit","pattern":[{"ORTH":"training"},{"ORTH":"days"}]}
+{"label":"Measure_Unit","pattern":[{"lower":"training"},{"lower":"days"}]}
+{"label":"Measure_Unit","pattern":[{"lower":"no"},{"lower":"of"},{"lower":"working"},{"lower":"days"}]}
+{"label":"Measure_Unit","pattern":[{"lower":"number"},{"lower":"of"},{"lower":"working"},{"lower":"days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no. of working days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no."},{"LEMMA":"of"},{"LEMMA":"working"},{"LEMMA":"days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of invoices"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"invoices"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"loss"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"loss"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"d/e ratio"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"d/e"},{"LEMMA":"ratio"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"dividend"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"dividend"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"earned leaves"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"earned"},{"LEMMA":"leaves"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"sick leaves"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"sick"},{"LEMMA":"leaves"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"experience"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"experience"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"working hours"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"working"},{"LEMMA":"hours"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"training days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"training"},{"LEMMA":"days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of recruitments"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"recruitments"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of hires"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"hires"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"time to fill"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"time"},{"LEMMA":"to"},{"LEMMA":"fill"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"training period"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"training"},{"LEMMA":"period"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"layover"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"layover"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"headcount"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"headcount"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"workforce"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"workforce"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"workforce tenure"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"workforce"},{"LEMMA":"tenure"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of enrollments"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"enrollments"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of promotions"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"promotions"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of resignations"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"resignations"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of requisitions"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"requisitions"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"notice period"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"notice"},{"LEMMA":"period"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"open vacancies"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"open"},{"LEMMA":"vacancies"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"filled vacancies"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"filled"},{"LEMMA":"vacancies"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"vacancy"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"vacancy"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"vacancy count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"vacancy"},{"LEMMA":"count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"fte vacancy count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"fte"},{"LEMMA":"vacancy"},{"LEMMA":"count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"fte count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"fte"},{"LEMMA":"count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"loss of pay"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"loss"},{"LEMMA":"of"},{"LEMMA":"pay"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"lop"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"lop"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"overtime"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"overtime"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number of referrals"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"referrals"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"referral count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"referral"},{"LEMMA":"count"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"workplace injuries"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"workplace"},{"LEMMA":"injuries"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"length of service"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"length"},{"LEMMA":"of"},{"LEMMA":"service"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"work tenure"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"work"},{"LEMMA":"tenure"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"leavers"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"leavers"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"vacation days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"vacation"},{"LEMMA":"days"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no_of_leads"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no_of_leads"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no_of_lead"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no_of_lead"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no of leads"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no"},{"LEMMA":"of"},{"LEMMA":"leads"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no of lead"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"no"},{"LEMMA":"of"},{"LEMMA":"lead"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"profit"}]}
+{"label":"Measure_Unit","pattern":[{"LEMMA":"profit"}]}
+{"label":"Goal Measure_Currency","pattern":[{"lower":"budget"},{"lower":{"TAG":"NN"}}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"revenue budget"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"revenue"},{"LEMMA":"budget"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"ebitda budget"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"ebitda"},{"LEMMA":"budget"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"overheads budget"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"overheads"},{"LEMMA":"budget"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"revenue target"}]}
+{"label":"Goal Measure_Currency","pattern":[{"LEMMA":"revenue"},{"LEMMA":"target"}]}
+{"label":"Measure_Currency","pattern":[{"lower":"actual"},{"TAG":"NN"}]}
+{"label":"Measure_Currency","pattern":[{"lower":"actual"},{"lower":"gm"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"gross margin"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"gross"},{"LEMMA":"margin"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"gm"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"gm"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"revenue per day"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"revenue"},{"LEMMA":"per"},{"LEMMA":"day"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"crude oil price"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"crude"},{"LEMMA":"oil"},{"LEMMA":"price"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ebitda"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ebitda"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"overheads"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"overheads"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"cost of sales"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"cost"},{"LEMMA":"of"},{"LEMMA":"sales"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"operating profit"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"operating"},{"LEMMA":"profit"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"operating income"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"operating"},{"LEMMA":"income"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ebit"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ebit"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"other income"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"other"},{"LEMMA":"income"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"depreciation"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"depreciation"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"exceptionals"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"exceptionals"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"interest"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"interest"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"net profit margin"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"net"},{"LEMMA":"profit"},{"LEMMA":"margin"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"direct cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"direct"},{"LEMMA":"cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"operating cash flow"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"operating"},{"LEMMA":"cash"},{"LEMMA":"flow"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ocf"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ocf"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"working capital"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"working"},{"LEMMA":"capital"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"turnover"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"turnover"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"opex"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"opex"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"capex"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"capex"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"salary"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"salary"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"bonus"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"bonus"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"fixed pay"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"fixed"},{"LEMMA":"pay"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"variable pay"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"variable"},{"LEMMA":"pay"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"training cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"training"},{"LEMMA":"cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"recruitment cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"recruitment"},{"LEMMA":"cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ctc"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"ctc"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"relocation charges"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"relocation"},{"LEMMA":"charges"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"joining bonus"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"joining"},{"LEMMA":"bonus"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"referral incentive"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"referral"},{"LEMMA":"incentive"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"overtime payment"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"overtime"},{"LEMMA":"payment"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"commission payment"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"commission"},{"LEMMA":"payment"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"claims payment"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"claims"},{"LEMMA":"payment"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"commission"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"commission"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"staff training cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"staff"},{"LEMMA":"training"},{"LEMMA":"cost"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"expense"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"expense"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"gross epi"}]}
+{"label":"Measure_Currency","pattern":[{"LEMMA":"gross"},{"LEMMA":"epi"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"lower":"business"},{"lower":{"REGEX":"group(?:s)?"}}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"revenue type"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"revenue"},{"LEMMA":"type"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"stream"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"stream"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business"},{"LEMMA":"group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"sub-business group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"sub-business"},{"LEMMA":"group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"profit centre"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"profit"},{"LEMMA":"centre"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"geography"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"geography"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"verticals"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"verticals"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"horizontal"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"horizontal"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"service line"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"service"},{"LEMMA":"line"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"grade"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"grade"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"levels"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"levels"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"age group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"age"},{"LEMMA":"group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"service group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"service"},{"LEMMA":"group"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"location"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"location"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"hierarchy"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"hierarchy"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"department"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"department"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"position"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"position"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"years of service"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"years"},{"LEMMA":"of"},{"LEMMA":"service"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"gender"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"gender"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"zone"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"zone"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business unit"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business"},{"LEMMA":"unit"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"source"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"source"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"employee performance"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"employee"},{"LEMMA":"performance"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"length of service slabs"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"length"},{"LEMMA":"of"},{"LEMMA":"service"},{"LEMMA":"slabs"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"accounts"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"accounts"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"steel_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"steel_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"hexa_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"hexa_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"vaas_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"vaas_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"hexa_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"hexa_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung4_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung4_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung6_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung6_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung6_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung6_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office_region"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office_region"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung10_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung10_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung10_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung10_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung11_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung11_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung11_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"samsung11_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_products"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_products"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_products"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_products"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"apple_product"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business plan class"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business"},{"LEMMA":"plan"},{"LEMMA":"class"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business plan class"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business"},{"LEMMA":"plan"},{"LEMMA":"class"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"division"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"division"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office_region"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office_region"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office_network"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"office_network"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"policy section reference"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"policy"},{"LEMMA":"section"},{"LEMMA":"reference"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"policy section reference"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"policy"},{"LEMMA":"section"},{"LEMMA":"reference"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"deduction type"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"deduction"},{"LEMMA":"type"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"new_renewal"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"new_renewal"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"new_renewal"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"new_renewal"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business plan class"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"business"},{"LEMMA":"plan"},{"LEMMA":"class"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"lines of business"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"lines"},{"LEMMA":"of"},{"LEMMA":"business"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"division"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"division"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"department"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"department"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"vertical"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"vertical"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"account"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"account"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"regions"}]}
+{"label":"Categorical Dimension_Categorical","pattern":[{"LEMMA":"regions"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"profit%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"profit%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"gross margin%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"gross"},{"LEMMA":"margin%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"gm%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"gm%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"operating profit%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"operating"},{"LEMMA":"profit%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"ebitda%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"ebitda%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"ebit%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"ebit%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"interest rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"interest"},{"LEMMA":"rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"tax"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"tax"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"loss%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"loss%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"profit margin%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"profit"},{"LEMMA":"margin%"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"burn rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"burn"},{"LEMMA":"rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"dividend rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"dividend"},{"LEMMA":"rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"retention rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"retention"},{"LEMMA":"rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"attrition rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"attrition"},{"LEMMA":"rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"employee turnover"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"employee"},{"LEMMA":"turnover"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"churn rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"churn"},{"LEMMA":"rate"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"st_percent"}]}
+{"label":"Measure_%","pattern":[{"LEMMA":"st_percent"}]}
+{"label":"Goal Measure_Unit","pattern":[{"LEMMA":"target headcount"}]}
+{"label":"Goal Measure_Unit","pattern":[{"LEMMA":"target"},{"LEMMA":"headcount"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"number of accounts"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"accounts"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"number of accounts with revenue"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"number"},{"LEMMA":"of"},{"LEMMA":"accounts"},{"LEMMA":"with"},{"LEMMA":"revenue"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"truth_cost"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"truth_cost"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"ebitda"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"ebitda"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"earned premium"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"earned"},{"LEMMA":"premium"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"unearned premium"}]}
+{"label":"Measure_Integer","pattern":[{"LEMMA":"unearned"},{"LEMMA":"premium"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"tech adequacy"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"tech"},{"LEMMA":"adequacy"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"acquisition cost"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"acquisition"},{"LEMMA":"cost"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"acq_cost_percentage"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"acq_cost_percentage"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":" tech adequacy"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":"tech"},{"LEMMA":"adequacy"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":" loss_ratio"}]}
+{"label":"Measure_percent","pattern":[{"LEMMA":" loss_ratio"}]}
+{"label":"Measure_ratio","pattern":[{"LEMMA":"loss_ratio"}]}
+{"label":"Measure_ratio","pattern":[{"LEMMA":"loss_ratio"}]}
+{"label":"Measure_currency","pattern":[{"LEMMA":"revenue"}]}
+{"label":"Measure_currency","pattern":[{"LEMMA":"revenue"}]}
+{"label":"Timeline Dimension_Timeline","pattern":"month"}
+{"label":"Timeline Dimension_Timeline","pattern":"months"}
+{"label":"Timeline Dimension_Timeline","pattern":"monthly"}
+{"label":"Timeline Dimension_Timeline","pattern":"year"}
+{"label":"Timeline Dimension_Timeline","pattern":"years"}
+{"label":"Timeline Dimension_Timeline","pattern":"yearly"}
+{"label":"Timeline Dimension_Timeline","pattern":"day"}
+{"label":"Timeline Dimension_Timeline","pattern":"days"}
+{"label":"Timeline Dimension_Timeline","pattern":"daily"}
+{"label":"Timeline Dimension_Timeline","pattern":"quarter"}
+{"label":"Timeline Dimension_Timeline","pattern":"quarters"}
+{"label":"Timeline Dimension_Timeline","pattern":"quarterly"}
+{"label":"Timeline Dimension_Timeline","pattern":"fy"}
+{"label":"Timeline Dimension_Timeline","pattern":"month"}
+{"label":"Timeline Dimension_Timeline","pattern":"year"}
+{"label":"Timeline Dimension_Timeline","pattern":"quarter"}
+{"label":"Timeline Dimension_Timeline","pattern":"ytd"}
+{"label":"Timeline Dimension_Timeline","pattern":"qtd"}
+{"label":"Timeline Dimension_Timeline","pattern":"year to date"}
+{"label":"Timeline Dimension_Timeline","pattern":"quarter to date"}
+{"label":"Timeline Dimension_Timeline","pattern":"week"}
+{"label":"Timeline Dimension_Timeline","pattern":"annually"}
+{"label":"Timeline Dimension_Timeline","pattern":"monthly"}
+{"label":"Timeline Dimension_Timeline","pattern":"daily"}
+{"label":"Timeline Dimension_Timeline","pattern":"hourly"}
+{"label":"Timeline Dimension_Timeline","pattern":"underwriting year"}
+{"label":"Categorical Dimension_Categorical","pattern":"stream"}
+{"label":"Categorical Dimension_Categorical","pattern":"revenue type"}
+{"label":"Categorical Dimension_Categorical","pattern":"stream"}
+{"label":"Categorical Dimension_Categorical","pattern":"business group"}
+{"label":"Categorical Dimension_Categorical","pattern":"sub-business group"}
+{"label":"Categorical Dimension_Categorical","pattern":"profit centre"}
+{"label":"Categorical Dimension_Categorical","pattern":"geography"}
+{"label":"Categorical Dimension_Categorical","pattern":"verticals"}
+{"label":"Categorical Dimension_Categorical","pattern":"horizontal"}
+{"label":"Categorical Dimension_Categorical","pattern":"service line"}
+{"label":"Categorical Dimension_Categorical","pattern":"grade"}
+{"label":"Categorical Dimension_Categorical","pattern":"levels"}
+{"label":"Categorical Dimension_Categorical","pattern":"age group"}
+{"label":"Categorical Dimension_Categorical","pattern":"service group"}
+{"label":"Categorical Dimension_Categorical","pattern":"location"}
+{"label":"Categorical Dimension_Categorical","pattern":"hierarchy"}
+{"label":"Categorical Dimension_Categorical","pattern":"department"}
+{"label":"Categorical Dimension_Categorical","pattern":"position"}
+{"label":"Categorical Dimension_Categorical","pattern":"years of service"}
+{"label":"Categorical Dimension_Categorical","pattern":"gender"}
+{"label":"Categorical Dimension_Categorical","pattern":"zone"}
+{"label":"Categorical Dimension_Categorical","pattern":"business unit"}
+{"label":"Categorical Dimension_Categorical","pattern":"source"}
+{"label":"Categorical Dimension_Categorical","pattern":"employee performance"}
+{"label":"Categorical Dimension_Categorical","pattern":"length of service slabs"}
+{"label":"Categorical Dimension_Categorical","pattern":"accounts"}
+{"label":"Categorical Dimension_Categorical","pattern":"steel_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"hexa_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"vaas_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"hexa_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung4_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung6_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung6_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"office_region"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung10_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung10_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung11_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"samsung11_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"apple_products"}
+{"label":"Categorical Dimension_Categorical","pattern":"apple_products"}
+{"label":"Categorical Dimension_Categorical","pattern":"apple_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"apple_product"}
+{"label":"Categorical Dimension_Categorical","pattern":"business plan class"}
+{"label":"Categorical Dimension_Categorical","pattern":"business plan class"}
+{"label":"Categorical Dimension_Categorical","pattern":"division"}
+{"label":"Categorical Dimension_Categorical","pattern":"office"}
+{"label":"Categorical Dimension_Categorical","pattern":"office_region"}
+{"label":"Categorical Dimension_Categorical","pattern":"office_network"}
+{"label":"Categorical Dimension_Categorical","pattern":"policy section reference"}
+{"label":"Categorical Dimension_Categorical","pattern":"policy section reference"}
+{"label":"Categorical Dimension_Categorical","pattern":"deduction type"}
+{"label":"Categorical Dimension_Categorical","pattern":"new_renewal"}
+{"label":"Categorical Dimension_Categorical","pattern":"new_renewal"}
+{"label":"Categorical Dimension_Categorical","pattern":"business plan class"}
+{"label":"Categorical Dimension_Categorical","pattern":"lines of business"}
+{"label":"Categorical Dimension_Categorical","pattern":"division"}
+{"label":"Categorical Dimension_Categorical","pattern":"department"}
+{"label":"Categorical Dimension_Categorical","pattern":"vertical"}
+{"label":"Categorical Dimension_Categorical","pattern":"account"}
+{"label":"Categorical Dimension_Categorical","pattern":"regions"}
+{"label":"Measure_Unit","pattern":"training days"}
+{"label":"Measure_Unit","pattern":"no. of working days"}
+{"label":"Measure_Unit","pattern":"number of invoices"}
+{"label":"Measure_Unit","pattern":"loss"}
+{"label":"Measure_Unit","pattern":"d/e ratio"}
+{"label":"Measure_Unit","pattern":"dividend"}
+{"label":"Measure_Unit","pattern":"earned leaves"}
+{"label":"Measure_Unit","pattern":"sick leaves"}
+{"label":"Measure_Unit","pattern":"experience"}
+{"label":"Measure_Unit","pattern":"working hours"}
+{"label":"Measure_Unit","pattern":"training days"}
+{"label":"Measure_Unit","pattern":"number of recruitments"}
+{"label":"Measure_Unit","pattern":"number of hires"}
+{"label":"Measure_Unit","pattern":"time to fill"}
+{"label":"Measure_Unit","pattern":"training period"}
+{"label":"Measure_Unit","pattern":"layover"}
+{"label":"Measure_Unit","pattern":"headcount"}
+{"label":"Measure_Unit","pattern":"workforce"}
+{"label":"Measure_Unit","pattern":"workforce tenure"}
+{"label":"Measure_Unit","pattern":"number of enrollments"}
+{"label":"Measure_Unit","pattern":"number of promotions"}
+{"label":"Measure_Unit","pattern":"number of resignations"}
+{"label":"Measure_Unit","pattern":"number of requisitions"}
+{"label":"Measure_Unit","pattern":"notice period"}
+{"label":"Measure_Unit","pattern":"open vacancies"}
+{"label":"Measure_Unit","pattern":"filled vacancies"}
+{"label":"Measure_Unit","pattern":"vacancy"}
+{"label":"Measure_Unit","pattern":"vacancy count"}
+{"label":"Measure_Unit","pattern":"fte vacancy count"}
+{"label":"Measure_Unit","pattern":"fte count"}
+{"label":"Measure_Unit","pattern":"loss of pay"}
+{"label":"Measure_Unit","pattern":"lop"}
+{"label":"Measure_Unit","pattern":"overtime"}
+{"label":"Measure_Unit","pattern":"number of referrals"}
+{"label":"Measure_Unit","pattern":"referral count"}
+{"label":"Measure_Unit","pattern":"workplace injuries"}
+{"label":"Measure_Unit","pattern":"length of service"}
+{"label":"Measure_Unit","pattern":"work tenure"}
+{"label":"Measure_Unit","pattern":"leavers"}
+{"label":"Measure_Unit","pattern":"vacation days"}
+{"label":"Measure_Unit","pattern":"no_of_leads"}
+{"label":"Measure_Unit","pattern":"no_of_lead"}
+{"label":"Measure_Unit","pattern":"no of leads"}
+{"label":"Measure_Unit","pattern":"no of lead"}
+{"label":"Measure_Unit","pattern":"profit"}
+{"label":"Measure_Currency","pattern":"gross margin"}
+{"label":"Measure_Currency","pattern":"gm"}
+{"label":"Measure_Currency","pattern":"revenue per day"}
+{"label":"Measure_Currency","pattern":"crude oil price"}
+{"label":"Measure_Currency","pattern":"ebitda"}
+{"label":"Measure_Currency","pattern":"overheads"}
+{"label":"Measure_Currency","pattern":"cost of sales"}
+{"label":"Measure_Currency","pattern":"operating profit"}
+{"label":"Measure_Currency","pattern":"operating income"}
+{"label":"Measure_Currency","pattern":"ebit"}
+{"label":"Measure_Currency","pattern":"other income"}
+{"label":"Measure_Currency","pattern":"depreciation"}
+{"label":"Measure_Currency","pattern":"exceptionals"}
+{"label":"Measure_Currency","pattern":"interest"}
+{"label":"Measure_Currency","pattern":"net profit margin"}
+{"label":"Measure_Currency","pattern":"direct cost"}
+{"label":"Measure_Currency","pattern":"operating cash flow"}
+{"label":"Measure_Currency","pattern":"ocf"}
+{"label":"Measure_Currency","pattern":"working capital"}
+{"label":"Measure_Currency","pattern":"turnover"}
+{"label":"Measure_Currency","pattern":"opex"}
+{"label":"Measure_Currency","pattern":"capex"}
+{"label":"Measure_Currency","pattern":"salary"}
+{"label":"Measure_Currency","pattern":"bonus"}
+{"label":"Measure_Currency","pattern":"fixed pay"}
+{"label":"Measure_Currency","pattern":"variable pay"}
+{"label":"Measure_Currency","pattern":"training cost"}
+{"label":"Measure_Currency","pattern":"recruitment cost"}
+{"label":"Measure_Currency","pattern":"ctc"}
+{"label":"Measure_Currency","pattern":"relocation charges"}
+{"label":"Measure_Currency","pattern":"joining bonus"}
+{"label":"Measure_Currency","pattern":"referral incentive"}
+{"label":"Measure_Currency","pattern":"overtime payment"}
+{"label":"Measure_Currency","pattern":"commission payment"}
+{"label":"Measure_Currency","pattern":"claims payment"}
+{"label":"Measure_Currency","pattern":"commission"}
+{"label":"Measure_Currency","pattern":"staff training cost"}
+{"label":"Measure_Currency","pattern":"expense"}
+{"label":"Measure_Currency","pattern":"gross epi"}
+{"label":"Goal Measure_Currency","pattern":"revenue budget"}
+{"label":"Goal Measure_Currency","pattern":"ebitda budget"}
+{"label":"Goal Measure_Currency","pattern":"overheads budget"}
+{"label":"Goal Measure_Currency","pattern":"revenue target"}
+{"label":"Measure_%","pattern":"profit%"}
+{"label":"Measure_%","pattern":"gross margin%"}
+{"label":"Measure_%","pattern":"gm%"}
+{"label":"Measure_%","pattern":"operating profit%"}
+{"label":"Measure_%","pattern":"ebitda%"}
+{"label":"Measure_%","pattern":"ebit%"}
+{"label":"Measure_%","pattern":"interest rate"}
+{"label":"Measure_%","pattern":"tax"}
+{"label":"Measure_%","pattern":"loss%"}
+{"label":"Measure_%","pattern":"profit margin%"}
+{"label":"Measure_%","pattern":"burn rate"}
+{"label":"Measure_%","pattern":"dividend rate"}
+{"label":"Measure_%","pattern":"retention rate"}
+{"label":"Measure_%","pattern":"attrition rate"}
+{"label":"Measure_%","pattern":"employee turnover"}
+{"label":"Measure_%","pattern":"churn rate"}
+{"label":"Measure_%","pattern":"st_percent"}
+{"label":"Goal Measure_Unit","pattern":"target headcount"}
+{"label":"Measure_Integer","pattern":"number of accounts"}
+{"label":"Measure_Integer","pattern":"number of accounts with revenue"}
+{"label":"Measure_Integer","pattern":"truth_cost"}
+{"label":"Measure_Integer","pattern":"ebitda"}
+{"label":"Measure_Integer","pattern":"earned premium"}
+{"label":"Measure_Integer","pattern":"unearned premium"}
+{"label":"Measure_percent","pattern":"tech adequacy"}
+{"label":"Measure_percent","pattern":"acquisition cost"}
+{"label":"Measure_percent","pattern":"acq_cost_percentage"}
+{"label":"Measure_percent","pattern":" tech adequacy"}
+{"label":"Measure_percent","pattern":" loss_ratio"}
+{"label":"Measure_ratio","pattern":"loss_ratio"}
+{"label":"Measure_currency","pattern":"revenue"}
