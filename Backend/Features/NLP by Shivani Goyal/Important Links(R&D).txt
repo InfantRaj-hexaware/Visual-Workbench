@@ -1,0 +1,2 @@
+Reference Links:
+https://confusedcoders.com/data-science/deep-learning/how-to-create-custom-ner-in-spacy

@@ -1,0 +1,5 @@
+python -m spacy init fill-config base_config.cfg config.cfg
+
+Use Directly below commands in CLI---------
+python -m spacy train config.cfg --output ./output --paths.train ./train.spacy --paths.dev ./train.spacy
+spacy debug data -V D:/SpacyNER/config.cfg --paths.train D:/SpacyNER/train.spacy --paths.dev D:/SpacyNER/train.spacy

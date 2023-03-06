@@ -1,0 +1,160 @@
+2022-12-12 16:21:31,919 werkzeug INFO  * Restarting with stat
+2022-12-12 16:21:33,048 root INFO Starting Flask
+2022-12-12 16:21:33,066 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:21:33,073 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:21:33,174 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:21:33,175 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:22:00,313 root INFO Starting Flask
+2022-12-12 16:22:00,356 werkzeug INFO  * Restarting with stat
+2022-12-12 16:22:01,037 root INFO Starting Flask
+2022-12-12 16:22:01,051 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:22:01,066 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:22:01,144 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:22:01,144 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:23:14,413 root INFO Starting Flask
+2022-12-12 16:23:14,440 werkzeug INFO  * Restarting with stat
+2022-12-12 16:23:15,090 root INFO Starting Flask
+2022-12-12 16:23:15,104 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:23:15,113 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:23:15,194 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:23:15,195 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:24:36,443 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\speech_to_text_async_.py', reloading
+2022-12-12 16:24:36,519 werkzeug INFO  * Restarting with stat
+2022-12-12 16:24:37,315 root INFO Starting Flask
+2022-12-12 16:24:37,328 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:24:37,335 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:24:37,692 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:24:37,693 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:24:42,041 root INFO Starting Flask
+2022-12-12 16:24:42,067 werkzeug INFO  * Restarting with stat
+2022-12-12 16:24:42,734 root INFO Starting Flask
+2022-12-12 16:24:42,746 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:24:42,753 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:24:42,836 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:24:42,837 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:25:02,649 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:25:02] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:25:16,200 root INFO Starting Flask
+2022-12-12 16:25:16,227 werkzeug INFO  * Restarting with stat
+2022-12-12 16:25:16,942 root INFO Starting Flask
+2022-12-12 16:25:16,956 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:25:17,111 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:25:17,263 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:25:17,264 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:25:32,883 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:25:32] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:25:55,072 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\speech_to_text_async_.py', reloading
+2022-12-12 16:25:55,234 werkzeug INFO  * Restarting with stat
+2022-12-12 16:25:56,004 root INFO Starting Flask
+2022-12-12 16:25:56,019 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:25:56,026 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:25:56,262 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:25:56,264 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:27:05,501 root INFO Starting Flask
+2022-12-12 16:27:05,534 werkzeug INFO  * Restarting with stat
+2022-12-12 16:27:06,347 root INFO Starting Flask
+2022-12-12 16:27:06,361 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:27:06,367 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:27:06,480 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:27:06,481 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:28:29,375 root INFO Starting Flask
+2022-12-12 16:28:29,403 werkzeug INFO  * Restarting with stat
+2022-12-12 16:28:30,157 root INFO Starting Flask
+2022-12-12 16:28:30,173 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:28:30,178 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:28:30,257 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:28:30,258 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:29:05,973 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:29:05] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:30:53,809 root INFO Starting Flask
+2022-12-12 16:30:53,838 werkzeug INFO  * Restarting with stat
+2022-12-12 16:30:54,555 root INFO Starting Flask
+2022-12-12 16:30:54,567 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:30:54,573 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:30:54,649 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:30:54,650 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:31:04,166 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\speech_to_text_async_.py', reloading
+2022-12-12 16:31:04,282 werkzeug INFO  * Restarting with stat
+2022-12-12 16:31:05,267 root INFO Starting Flask
+2022-12-12 16:31:05,349 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:31:05,362 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:31:05,488 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:31:05,490 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:31:25,773 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\speech_to_text_async_.py', reloading
+2022-12-12 16:31:25,853 werkzeug INFO  * Restarting with stat
+2022-12-12 16:31:27,238 root INFO Starting Flask
+2022-12-12 16:31:27,255 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:31:27,263 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:31:27,352 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:31:27,353 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:32:11,187 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\speech_to_text_async_.py', reloading
+2022-12-12 16:32:11,283 werkzeug INFO  * Restarting with stat
+2022-12-12 16:32:13,104 root INFO Starting Flask
+2022-12-12 16:32:13,202 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:32:13,215 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:32:13,346 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:32:13,348 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:32:29,515 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:32:29] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:32:37,311 root INFO Starting Flask
+2022-12-12 16:32:37,341 werkzeug INFO  * Restarting with stat
+2022-12-12 16:32:38,221 root INFO Starting Flask
+2022-12-12 16:32:38,235 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:32:38,241 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:32:38,324 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:32:38,325 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:32:58,069 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:32:58] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:49:14,466 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\test1_12_Dec_22.py', reloading
+2022-12-12 16:49:14,526 werkzeug INFO  * Restarting with stat
+2022-12-12 16:49:15,390 root INFO Starting Flask
+2022-12-12 16:49:15,403 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:49:15,411 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:49:15,493 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:49:15,495 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:49:21,823 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\test1_12_Dec_22.py', reloading
+2022-12-12 16:49:21,882 werkzeug INFO  * Restarting with stat
+2022-12-12 16:49:22,607 root INFO Starting Flask
+2022-12-12 16:49:22,620 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:49:22,627 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:49:22,705 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:49:22,706 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:50:08,573 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\app.py', reloading
+2022-12-12 16:50:08,641 werkzeug INFO  * Restarting with stat
+2022-12-12 16:50:31,966 root INFO Starting Flask
+2022-12-12 16:50:31,992 werkzeug INFO  * Restarting with stat
+2022-12-12 16:50:32,702 root INFO Starting Flask
+2022-12-12 16:50:32,714 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:50:32,720 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:50:32,806 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:50:32,807 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:51:12,875 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:51:12] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:52:09,640 root INFO Starting Flask
+2022-12-12 16:52:09,675 werkzeug INFO  * Restarting with stat
+2022-12-12 16:52:10,438 root INFO Starting Flask
+2022-12-12 16:52:10,452 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:52:10,460 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:52:10,546 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:52:10,547 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
+2022-12-12 16:53:37,542 werkzeug INFO 127.0.0.1 - - [12/Dec/2022 16:53:37] "POST /speechtotext HTTP/1.1" 200 -
+2022-12-12 16:58:46,701 werkzeug INFO  * Detected change in 'D:\\CTO\\SpeechToText\\09-Dec-2022\\app.py', reloading
+2022-12-12 16:58:46,788 werkzeug INFO  * Restarting with stat
+2022-12-12 16:58:48,088 root INFO Starting Flask
+2022-12-12 16:58:48,111 werkzeug WARNING  * Debugger is active!
+2022-12-12 16:58:48,127 werkzeug INFO  * Debugger PIN: 897-254-761
+2022-12-12 16:58:48,363 werkzeug WARNING  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-12-12 16:58:48,377 werkzeug INFO  * Running on http://10.3.145.54:7000/ (Press CTRL+C to quit)
