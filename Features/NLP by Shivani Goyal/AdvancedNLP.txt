@@ -1,0 +1,59 @@
+Input: 
+
+Aim:
+
+The Goal is to obtain the Dimensions and Measures (Categorical Dimension, Timeline Dimension, Measures, Goal Measures ) using advanced NLP Logic. Using these Keywords we will 
+form the Mapping Logic and the Charts will be developed using Python Backend.
+
+
+Input Schema:
+
+Request Type : FormData
+API Type : GET
+Variable Name  ->  UserStory : sentence
+Note : Variable Name will be sent in Form Data as a key value pair.
+
+Output Schema:
+
+The output will contain the User Story and split up of the Dimensions and Measures for each sentence.
+
+
+For Example:
+
+User Story : 	Compare my earned premium with unearned premium over the last five years.	
+		Also the profit generated across the different geography.	
+		Show me the earned premium across different geography and insurance category.
+
+Note : 	The User Story has 3 sentences. Each sentence is considered as a widget. 
+	For each sentence we will provide the dimension and measures separately. 
+
+Output Format:
+{"userstory" : "Compare my earned premium with unearned premium over the last five years.	
+		Also the profit generated across the different geography.	
+		Show me the earned premium across different geography and insurance category."
+"payload" : [
+
+{"Categorical_Dimension" : ,
+"Goal_Measure" : ,
+"Measure" : ,
+"Timeline_Dimension" : ,
+"Statement" : },
+
+{"Categorical_Dimension" : ,
+"Goal_Measure" : ,
+"Measure" : ,
+"Timeline_Dimension" : ,
+"Statement" : },
+
+{"Categorical_Dimension" : ,
+"Goal_Measure" : ,
+"Measure" : ,
+"Timeline_Dimension" : ,
+"Statement" : },
+
+]
+}
+
+
+
+ 

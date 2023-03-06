@@ -1,0 +1,69 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.0.6,<3.1.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"df3444421",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "Categorical Dimension",
+      "Goal Measure",
+      "Measure",
+      "Timeline"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_per_type":{
+      "Measure":{
+        "p":0.9927817879,
+        "r":0.9949916528,
+        "f":0.9938854919
+      },
+      "Categorical Dimension":{
+        "p":0.9963898917,
+        "r":0.993997599,
+        "f":0.9951923077
+      },
+      "Goal Measure":{
+        "p":0.988372093,
+        "r":1.0,
+        "f":0.9941520468
+      },
+      "Timeline":{
+        "p":0.9837398374,
+        "r":0.9837398374,
+        "f":0.9837398374
+      }
+    },
+    "ents_f":0.9941440828,
+    "ents_p":0.9940087146,
+    "ents_r":0.9942794879,
+    "tok2vec_loss":175.404144965,
+    "ner_loss":656.69209204
+  }
+}

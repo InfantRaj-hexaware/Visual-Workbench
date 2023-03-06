@@ -1,0 +1,125 @@
+I would like to see my revenue for different verticals
+Please plot Cost of Sales vs verticals
+Show Operating Profit by vertical
+I would like to visualize my Other income for different verticals
+Plot my Monitoring costs against my verticals
+How is my Interest rate varying across all my verticals
+Direct Cost vs Vertical
+Can you plot my Depreciation for all my verticals
+plot Tax by vertical
+Show me Loss for all verticals
+what is my revenue across different verticals
+I would like to see my revenue for different verticals
+Please plot revenue vs verticals
+Show revenue by vertical
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TRY HARD -2
+Show me revenue for all Claim type
+Show me total_redem_afb for all Claim status
+Show me total_sales for all Product category
+Show me usd_amt for all Product type
+Show me ytd for all Product Name
+Show me ytd_redem for all Claim severity
+Show me ytd_percent for all Office
+Show me YTDNetSales for all Division
+Show me ytd_net_flow for all BPC Code
+Show me total_sales_afb for all Group Risk Code
+what is my revenue across different Claim type
+what is my total_redem_afb across different Claim status
+what is my total_sales different Product category
+what is my usd_amt across different Product type
+what is my ytd across different Product Name
+what is my ytd_redem across different Claim severity
+what is my ytd_percent across different  Office
+what is my YTDNetSales across different Division
+what is my ytd_net_flow across different BPC Code
+what is my total_sales_afb across different Group Risk Code
+
+
+total_redem_afb
+total_sales
+total_sales_afb
+usd_amt
+ytd
+YTD%
+ytd_net
+ytd_net_flow
+ytd_percent
+ytd_redem
+ytd_redem_afb
+ytd_sales
+ytd_sales_afb
+YTDNetSales
+
+Claim type
+Claim status
+Product category
+Product type
+Product Name
+Claim severity
+Office
+Division
+BPC Code
+Group Risk Code
+Risk Code Pol
+Insd
+Policy Ref
+
+New words:
+ytd_sales and Risk Code pol
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+what is my revenue across different verticals
+I would like to see my revenue for different verticals
+Please plot revenue vs verticals
+Show revenue by vertical
+I would like to visualize my revenue for different verticals
+Plot my revenue against my verticals
+How is my revenue varying across all my verticals
+Revenue vs Vertical
+Can you plot my revenue for all my verticals
+plot revenue by vertical
+
+("Show me total_sales_afb for all Group Risk Code",{"entities":[(8,23,"Measure"),(32,47,"Categorical Dimension")]}),
+("Show me ytd_net_flow for all BPC Code",{"entities":[(8,20,"Measure"),(29,36,"Categorical Dimension")]}),
+("Show me YTDNetSales for all Division ",{"entities":[(8,19,"Measure"),(28,36,"Categorical Dimension")]}),
+("Show me ytd_percent for all Office ",{"entities":[(8,19,"Measure"),(28,34,"Categorical Dimension")]}),
+("Show me ytd_redem for all Claim severity ",{"entities":[(8,17,"Measure"),(26,40,"Categorical Dimension")]}),
+("Show me ytd for all Product Name ",{"entities":[(8,11,"Measure"),(19,32,"Categorical Dimension")]}),
+("Show me usd_amt for all Product type ",{"entities":[(8,15,"Measure"),(24,36,"Categorical Dimension")]}),
+("Show me total_sales for all Product category ",{"entities":[(8,19,"Measure"),(27,44,"Categorical Dimension")]}),
+("Show me total_redem_afb for all Claim status ",{"entities":[(8,23,"Measure"),(32,44,"Categorical Dimension")]}),
+("Show me revenue for all Claim type ",{"entities":[(8,15,"Measure"),(24,34,"Categorical Dimension")]}),
+
+train = [
+         ("Show me total_sales_afb for all Group Risk Code",{"entities":[(8,23,"Measure"),(32,47,"Categorical Dimension")]}),
+	 ("Show me ytd_net_flow for all BPC Code",{"entities":[(8,20,"Measure"),(29,36,"Categorical Dimension")]}),
+	 ("Show me YTDNetSales for all Division ",{"entities":[(8,19,"Measure"),(28,36,"Categorical Dimension")]}),
+	 ("Show me ytd_percent for all Office ",{"entities":[(8,19,"Measure"),(28,34,"Categorical Dimension")]}),
+	 ("Show me ytd_redem for all Claim severity ",{"entities":[(8,17,"Measure"),(26,40,"Categorical Dimension")]}),
+ 	 ("Show me ytd for all Product Name ",{"entities":[(8,11,"Measure"),(19,32,"Categorical Dimension")]}),
+	 ("Show me usd_amt for all Product type ",{"entities":[(8,15,"Measure"),(24,36,"Categorical Dimension")]}),
+	 ("Show me total_sales for all Product category ",{"entities":[(8,19,"Measure"),(27,44,"Categorical Dimension")]}),
+	 ("Show me total_redem_afb for all Claim status ",{"entities":[(8,23,"Measure"),(32,44,"Categorical Dimension")]}),
+	 ("Show me revenue for all Claim type ",{"entities":[(8,15,"Measure"),(24,34,"Categorical Dimension")]})
+        ]
+
+train = [
+         ("Money transfer from my checking account is not working", {"entities": [(6, 13, "ACTIVITY"), (23, 39, 'PRODUCT')]}),
+         ("I want to check balance in my savings account", {"entities": [(16, 23, "ACTIVITY"), (30, 45, 'PRODUCT')]}),
+         ("I suspect a fraud in my credit card account", {"entities": [(12, 17, "ACTIVITY"), (24, 35, 'PRODUCT')]}),
+         ("I am here for opening a new savings account", {"entities": [(14, 21, "ACTIVITY"), (28, 43, 'PRODUCT')]}),
+         ("Your mortgage is in delinquent status", {"entities": [(20, 30, "ACTIVITY"), (5, 13, 'PRODUCT')]}),
+         ("Your credit card is in past due status", {"entities": [(23, 31, "ACTIVITY"), (5, 16, 'PRODUCT')]}),
+         ("My loan account is still not approved and funded", {"entities": [(25, 37, "ACTIVITY"), (3, 15, 'PRODUCT'), (42, 48, "ACTIVITY")]}),
+         ("How do I open a new loan account", {"entities": [(9, 13, "ACTIVITY"), (20, 32, 'PRODUCT')]}),
+         ("What are the charges on Investment account", {"entities": [(13, 20, "ACTIVITY"), (24, 42, 'PRODUCT')]}),
+         ("Can you explain late charges on my credit card", {"entities": [(21, 28, "ACTIVITY"), (35, 46, 'PRODUCT')]}),
+         ("I want to open a new loan account", {"entities": [(10, 14, "ACTIVITY"), (21, 33, 'PRODUCT')]}),
+         ("Can you help updating payment on my credit card", {"entities": [(22, 29, "ACTIVITY"), (36, 47, 'PRODUCT')]}),
+         ("When is the payment due date on my card", {"entities": [(12, 19, "ACTIVITY"), (35, 39, 'PRODUCT')]})
+        ]
+
